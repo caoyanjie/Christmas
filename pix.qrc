@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/christmasTree.png</file>
+        <file>Images/exit.png</file>
+        <file>Images/light1.png</file>
+        <file>Images/light2.png</file>
+        <file>Images/light3.png</file>
+        <file>Images/light4.png</file>
+        <file>Images/light5.png</file>
+        <file>Images/light6.png</file>
+        <file>Images/light7.png</file>
+        <file>Images/light8.png</file>
+        <file>Images/logo.ico</file>
+        <file>Images/meteor.png</file>
+        <file>Images/meteor1.png</file>
+        <file>Images/mute.png</file>
+        <file>Images/next.png</file>
+        <file>Images/ok.png</file>
+        <file>Images/onTop.png</file>
+        <file>Images/pause.png</file>
+        <file>Images/previous.png</file>
+        <file>Images/snow.png</file>
+        <file>Images/star1.png</file>
+        <file>Images/star2.png</file>
+        <file>Images/star3.png</file>
+        <file>Images/star4.png</file>
+        <file>Images/star5.png</file>
+        <file>Images/star6.png</file>
+        <file>Images/starIco.png</file>
+        <file>Images/starToText.png</file>
+        <file>Images/merryChristmas.png</file>
+    </qresource>
+</RCC>
