@@ -15,11 +15,13 @@ ChristmasTree::ChristmasTree(QWidget *parent) :
   ,snowIsShow(true)
 {
     this->resize(treeWidth,treeHeight);
-this->setWindowOpacity(0.2);
+    this->setWindowOpacity(0.2);
+
     //圣诞树后面星星
     starOnTheTree = new StarOnTheTree(0, this);
 //    starOnTheTree->setGeometry(5, 0, this->width()-10, this->height()/2);
     starOnTheTree->setGeometry(5, 0, this->width(), this->height()/2);
+
     //圣诞树头上星星
     starOnTheTree = new StarOnTheTree(4, this);
     starOnTheTree->setGeometry(0, 0, this->width(), 60);
@@ -55,7 +57,8 @@ this->setWindowOpacity(0.2);
     playlist = new QMediaPlaylist;
     player->setPlaylist(playlist);
 
-    playlist->addMedia(QUrl(tr("%1/mediaservice/christmas.mp3").arg(QFileInfo("").absoluteFilePath())));
+    ///playlist->addMedia(QUrl(tr("%1/mediaservice/christmas.mp3").arg(QFileInfo("").absoluteFilePath())));
+    playlist->addMedia(QUrl(tr("christmas.mp3")));
     playlist->setPlaybackMode(QMediaPlaylist::Loop);
     player->play();
 
